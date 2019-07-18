@@ -1,0 +1,8 @@
+'''
+problem:https://www.hackerrank.com/challenges/np-array-mathematics
+'''
+
+import numpy as np
+n, m = map(int, input().split())
+a, b = (np.array([input().split() for x in range(n)], dtype=int) for y in range(2))
+print(a+b, a-b, a*b, a//b, a%b, a**b, sep='\n')
