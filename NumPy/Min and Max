@@ -2,6 +2,9 @@
 
 
 import numpy
-N, M = map(int, input().split())
-A = numpy.array([input().split() for x in range(N)],int)
+
+n, M = map(int, input().split())
+
+A = numpy.array([input().split() for x in range(n)],int)
+
 print(numpy.max(numpy.min(A, axis=1), axis=0))
