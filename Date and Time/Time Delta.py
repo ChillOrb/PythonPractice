@@ -1,4 +1,4 @@
- Problem: https://www.hackerrank.com/challenges/python-time-delta/problem
+ '''Problem: https://www.hackerrank.com/challenges/python-time-delta/problem'''
 
 
 
